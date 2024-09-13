@@ -75,7 +75,7 @@ application.add_handler(CommandHandler('import_wallet', import_wallet_command))
 
 # Function to run Flask app and Telegram bot
 def run_flask():
-    app.run(debug=True, use_reloader=False)
+    app.run(host='0.0.0.0', debug=False, use_reloader=False)  # 监听所有 IP 地址，关闭调试模式
 
 # Function to start Telegram bot
 def start_bot():
