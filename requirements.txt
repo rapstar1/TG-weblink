@@ -2,4 +2,7 @@ Flask
 flask-cors
 requests
 python-telegram-bot
+ecdsa
+mnemonic
+pycoin
 gunicorn
